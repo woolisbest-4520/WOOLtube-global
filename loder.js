@@ -3,7 +3,6 @@
   u.id="u";
   u.style.cssText="font-size:.8em;color:#0ff;word-break:break-all;text-align:center";
   document.body.appendChild(u);
-
   let S=[];
   try{
     const r=await fetch("https://raw.githubusercontent.com/woolisbest-4520/WOOLtube-global/refs/heads/main/fetch.txt",{cache:"no-store"});
@@ -12,14 +11,12 @@
     u.textContent="Failed to load URL list";
     return;
   }
-
   async function f(t,n=5000){
     return new Promise((res,rej)=>{
       const s=setTimeout(()=>rej(0),n);
       fetch(t,{cache:"no-store"}).then(r=>{clearTimeout(s);res(r)}).catch(e=>{clearTimeout(s);rej(0)});
     });
   }
-
   for(const t of S){
     u.textContent=t;
     try{
