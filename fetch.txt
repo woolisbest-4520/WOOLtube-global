@@ -10,3 +10,4 @@ https://raw.githubusercontent.com/woolisbest-4520/WOOLtube-global/refs/heads/mai
 https://raw.githubusercontent.com/woolisbest-4520/WOOLtube-global/refs/heads/main/proxy.html
 https://cdn.jsdelivr.net/gh/woolisbest-4520/WOOLtube-global@refs/heads/main/index.html
 https://cdn.jsdelivr.net/gh/woolisbest-4520/WOOLtube-global@refs/heads/main/proxy.html
+https://html.cafe/xfd54cbd7
